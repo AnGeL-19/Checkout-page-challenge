@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+
+        <header>
+            <h1 class="titulo">Checkout</h1>
+        </header>
+
+        <div class="main_aside">
+            <main>
+
+                <section class="contacto">
+    
+                    <div class="subtitulo">
+                        <h3>Contanct informaction</h3>
+                    </div>
+
+                    <div class="input_icon_desc">
+                        <span class="desc">E-mail</span>
+                        <div class="input_icon">
+                            <input type="text" placeholder="Enter your email...">
+                            <span class="material-icons">
+                                email
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="input_icon_desc">
+                        <span class="desc">Phone</span>
+                        <div class="input_icon">
+                            <input type="text" placeholder="Enter your email...">
+                            <span class="material-icons">
+                                call
+                            </span>
+                        </div>
+                    </div>
+
+                </section>
+    
+                <section class="direccion">
+                    
+                    <div class="subtitulo">
+                        <h3>Shipping address</h3>
+                    </div>
+
+                    <div class="input_icon_desc">
+                        <span class="desc">Full name</span>
+                        <div class="input_icon">
+                            <input type="text" placeholder="Enter your name...">
+                            <span class="material-icons">
+                                account_circle
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="input_icon_desc">
+                        <span class="desc">Address</span>
+                        <div class="input_icon">
+                            <input type="text" placeholder="Your address...">
+                            <span class="material-icons">
+                                home
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="input_icon_desc">
+                        <span class="desc">City</span>
+                        <div class="input_icon">
+                            <input type="text" placeholder="Your city...">
+                            <span class="material-icons">
+                                location_city
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="inputs">
+                        
+                        <div class="input_icon_desc">
+                            <span class="desc">Country</span>
+                            <div class="custom-select">
+                                <select name="select" class="select" id="s">
+                                    <option>Your country..</option>
+                                    <option value="value1">Value 1</option>
+                                    <option value="value2">Value 2</option>
+                                    <option value="value3">Value 3</option>
+                                </select>
+                                <span class="material-icons starticon">
+                                    public
+                                </span>
+                                <span class="material-icons endicon">
+                                    keyboard_arrow_down
+                                </span>   
+                            </div>
+                        </div>
+                        
+                        <div class="input_icon_desc postal">
+                            <span class="desc">Postal code</span>
+                            <div class="input_icon">
+                                <input type="text" placeholder="Your postal code...">
+                                <span class="material-icons">
+                                    markunread_mailbox
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </section>
+    
+                <div class="check">
+                    <div>
+                        <input type="checkbox" name="" id="check">
+                    </div>
+                    <label for="check">Save this information for next time</label>
+                </div>
+
+                <button class="continue">Continue</button>
+
+
+            </main>
+
+
+            <aside>
+
+                <div class="contenedor">
+
+                    <article>
+                        <div class="foto_caract">
+                            <div class="foto_prod">
+                                <img src="img/photo1.png" alt="">
+                            </div>
+                            <div class="caract">
+                                <div class="producto">
+                                    <h3 class="nombre">Vintage Backbag</h3>
+                                </div>
+                                <div class="precios">
+                                    <span class="original naranja">$<span id="precio">54.99</span></span>
+                                    <span class="tachado">$<s>94.99</s></span>
+                                </div>
+                                <div class="cantidades">
+                                    <button class="menos" id="menos">-</button>
+                                    <span class="cantidad">1</span>
+                                    <button class="mas" id="mas">+</button>
+                                </div>
+                            </div>
+                        </div>                   
+                    </article>
+
+                    <article>
+                        <div class="foto_caract">
+                            <div class="foto_prod">
+                                <img src="img/photo2.png" alt="">
+                            </div>
+                            <div class="caract">
+                                <div class="producto">
+                                    <h3 class="nombre">Levi Shoes</h3>
+                                </div>
+                                <div class="precios">
+                                    <span class="original naranja">$<span id="precio2">74.99</span></span>
+                                    <span class="tachado">$<s>124.99</s></span>
+                                </div>
+                                <div class="cantidades">
+                                    <button class="menos" id="menos">-</button>
+                                    <span class="cantidad">1</span>
+                                    <button class="mas" id="mas">+</button>
+                                </div>
+                            </div>
+                        </div>                   
+                    </article>
+                   
+                    
+                    <div class="compras">
+
+                        <div class="shipping">
+                            <span class="texto">Shipping</span>
+                            <span class="precio">$19</span>
+                        </div>
+                        <div class="total">
+                            <span class="texto">Total</span>
+                            <span id="total" class="precio">$148.98</span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </aside>
+        </div>
+        
+
+    </div>
+    <footer>
+        <p>Angel Muñoz @ DevChallenges.io</p>
+    </footer>
+
+</body>
+</html>

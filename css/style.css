@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor{
+
+    width: 70%;
+    margin: 54px auto;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+header .titulo{
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4E5150;
+    
+}
+
+
+main{
+    width: 46.7%;
+}
+
+
+.main_aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.main_aside .contacto{
+    margin-bottom: 58px;
+} 
+
+.main_aside .subtitulo{
+    margin-bottom: 15px;
+}
+
+.main_aside .subtitulo h3{
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+
+}
+
+
+.main_aside .input_icon_desc{
+    margin-bottom: 20px;
+}
+
+.main_aside .input_icon_desc .desc{
+    
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    color: #4F4F4F;
+    transform: rotate(-0.02deg);
+    margin-bottom: 7px;
+
+}
+
+input[type="text"]{
+    
+    height: 56px;
+    width: 465px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px;
+    outline: none;
+    color: #aaa;
+    transition: .3s;
+}
+
+.input_icon input[type="text"]{
+    padding-left: 52px;
+}
+
+.input_icon{
+    position: relative;
+}
+
+.input_icon .material-icons{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 8px 18px 8px 14px;
+    color: #aaa;
+    transform: .3s;
+}
+
+input[type="text"]:hover{
+
+    border-color: dodgerblue;
+
+}
+
+input[type="text"]:focus{
+
+    border-color: dodgerblue;
+
+}
+
+.input_icon input[type="text"]:focus + span{
+    color: dodgerblue;
+}
+
+.contenedor .custom-select{
+    position: relative;
+    height: 56px;
+    width: 217px;
+}
+
+.contenedor .select{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 51px 18px 18px;
+    outline: none;
+    color: #aaa;
+    transition: .3s;
+    appearance: none;
+}
+
+
+
+.contenedor .custom-select .select{
+    padding-left: 52px;
+}
+
+
+
+.contenedor .custom-select .starticon{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 8px 18px 8px 14px;
+    color: #aaa;
+    transform: .3s;
+}
+
+.contenedor .custom-select .endicon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    color: #828282;
+    background: #E0E0E0;
+    border-radius: 4px;
+    margin-right: 11px;
+}
+
+.contenedor .select:hover{
+
+    border-color: dodgerblue;
+
+}
+
+.contenedor .select:focus{
+
+    border-color: dodgerblue;
+
+}
+
+.contenedor .select:focus + .starticon{
+    color: dodgerblue;
+}
+
+.contenedor .main_aside .inputs .input_icon_desc input[type="text"]{
+    width: 217px;
+}
+
+.contenedor .main_aside .inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.contenedor .main_aside .check{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.contenedor .main_aside .check input[type="checkbox"]{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    margin-right: 11px;
+   
+} 
+
+
+.contenedor .main_aside .check label{
+    
+    margin-top: 4px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+
+.contenedor .main_aside .continue{
+    width: 166px;
+    height: 54px;
+    padding: 17px 45px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    background: #F2994A;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    float: right;
+}
+
+
+.contenedor .main_aside aside .contenedor{
+
+    width: 383px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    padding: 33px 26px 14px 26px;
+    margin: 0;
+
+}
+
+aside .contenedor article{
+    margin-bottom: 30px;
+}
+
+aside .contenedor .foto_caract{
+
+    height: 136px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+aside .contenedor .foto_caract .foto_prod{
+
+    width: 134px;
+    height: 136px;
+    margin-right: 20px;
+
+}
+
+aside .contenedor .foto_caract .foto_prod img{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+    transform: rotate(-0.02deg);
+}
+
+aside .contenedor .foto_caract .caract .producto{
+    margin-bottom: 5px;
+}
+
+aside .contenedor .foto_caract .caract .producto .nombre{
+ 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color:#4E5150;
+
+}
+
+aside .contenedor .foto_caract .caract .precios span{
+    display: inline-block;
+    margin-right: 4px;
+}
+
+aside .contenedor .foto_caract .caract .precios .original{
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+aside .contenedor .foto_caract .caract .precios .tachado{
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    color: #4E5150;
+
+}
+
+aside .contenedor .foto_caract .caract .precios .naranja{
+    color: #F2994A;
+}
+
+aside .contenedor .foto_caract .caract .precios{
+    margin-bottom: 35px;
+}
+
+
+aside .contenedor .foto_caract .cantidades{
+
+    height: 52px;
+    width: 134px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+aside .contenedor .foto_caract .cantidades button{
+
+    text-align: center;
+    width: 21px;
+    height: 21px;
+    font-size: 21px;
+    color: #828282;;
+    background: #E0E0E0;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+
+}
+
+aside .contenedor .foto_caract .cantidades span{
+    display: inline-block;
+}
+
+aside .contenedor .foto_caract .cantidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+aside .contenedor .foto_caract .cantidades button:hover{
+    background: #a7a7a7;
+    color: #e6e6e6;
+}
+
+
+aside .contenedor .compras{
+    margin-top: 95px;
+}
+
+aside .contenedor .compras .shipping{
+    padding: 10px 0;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside .contenedor .compras .total{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside .contenedor .compras span{
+    display: inline-block;
+}
+
+
+.contenedor aside .contenedor .compras .texto{
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color:#333333;
+    
+
+}
+
+.contenedor aside .contenedor .compras .precio{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    color:#333333;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 166px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+footer p{
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+
